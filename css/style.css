@@ -1,0 +1,65 @@
+:root {
+  /* Colors */
+  --primary-color: #08A6E4;
+  --secondary-color: #A5A5A5;
+  --hover-color: #000;
+
+  /* Fonts */
+  --font-primary: "Raleway";
+  --font-secondary: "Open Sans";
+}
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  height: 70px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1352px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo, .header-nav a {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--primary-color);
+  font: 300 32px/37px var(--font-primary);
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav a {
+  color: var(--secondary-color);
+  font: bold 11px/15px var(--font-secondary);
+  text-transform: uppercase;
+  padding: 28px 18px 22px;
+  letter-spacing: 0.1875rem;
+}
+
+.header-nav li {
+  padding: 25px 20px;
+  border-bottom: 4px solid transparent;
+}
+
+.header-nav li:hover {
+  border-bottom-color: var(--primary-color);
+}
+
+.header-nav a:hover {
+  color: var(--hover-color);
+}
