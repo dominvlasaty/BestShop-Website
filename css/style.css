@@ -19,6 +19,7 @@
 /* Header */
 .header {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  width: 100%;
 }
 
 .container {
@@ -63,4 +64,44 @@
   color: var(--hover-color);
 }
 
-/* Main */
+/* Main Opening */
+
+.opening {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.opening_content {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.opening_h1 {
+  font-family: var(--font-primary);
+  font-size: 45px;
+}
+
+.opening_p {
+  margin-top: 20px;
+  margin-bottom: 38px;
+  font: normal normal normal 16px/22px "Open Sans";
+}
+
+.opening_btn {
+  font: normal normal bold 16px/22px "Open Sans";
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  padding: 22px 155px;
+  background-color: var(--primary-color);
+  border-radius: 35px;
+  box-shadow: 5px 10px 14px #07ACE629;
+}
+
+.opening_image {
+  background-size: cover;
+  width: 100%;
+}
